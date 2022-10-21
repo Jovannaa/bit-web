@@ -11,3 +11,49 @@
     max-height: 200px;
     overflow: scroll;
 }
+#one {
+    background-color: yellow;
+    border: 5px dashed red;
+    width: 300px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#two {
+    background-color: yellow;
+    border: 5px solid green;
+    width: 400px;
+    margin-right: 20px;
+    visibility: hidden;
+}
+.box4 {
+    display: flex;
+    justify-content: center;
+}
+#three {
+    background-color: yellow;
+    border: 5px dashed red;
+    padding: 0px;
+    width: 200px;
+    margin-right: 20px;
+    visibility: hidden;
+}
+
+.box3, .box4, .box5 {
+    display: inline-table;
+}
+h1 {
+    width: 960px;
+    text-align: center;
+    color: brown;
+    font-family: 'Brush Script MT', cursive;
+}
+.box3 {
+    background-color: aqua;
+    box-shadow: 5px 10px #8888;
+    border-radius: 15px;
+}
+
