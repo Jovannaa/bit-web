@@ -1,0 +1,20 @@
+#unordered1 {
+    list-style-type: circle;
+}
+#unordered2 {
+    list-style-type: square;
+}
+#ordered1 {
+    list-style-type: upper-alpha;
+}
+#ordered2 {
+    list-style-type: upper-roman;
+}
+ul#image-marker1 {
+    list-style-image: url('https://www.google.com/search?q=simbol+gif&hl=sr&sxsrf=ALiCzsYhvMw8wWI2Lvif0MMD9DiKkzvnqg:1666359002803&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiDoLiDt_H6AhUFuaQKHcU8DKsQ_AUoAXoECAEQAw&biw=1536&bih=754&dpr=1.25#imgrc=qJeZh4BmdIjE_M&imgdii=_Oeo7PvPorYMcM');
+    width: 200px;
+}
+ul#image-marker2 {
+    width: 200px;
+    list-style-position: inside;
+}
