@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    border: thick solid yellow;
+    background-color: yellow;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 100px 100px 100px;
+    gap: 10px;
+}
+
+.item1 {
+    background-color: aquamarine;
+    grid-column: 1/-1;
+}
+.item2 {
+    background-color: rgb(226, 80, 80);
+}
+.item3 {
+    background-color: rgb(148, 221, 148);
+    grid-column: 2/3;
+}
+.item4 {
+    background-color: rgb(226, 80, 80);
+}
+.item5 {
+    background-color: rgb(235, 175, 65);
+    grid-column: 1/-1;
+}

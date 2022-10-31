@@ -1,0 +1,125 @@
+.container {
+    background-color: blue;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .item1 {
+    background-color: yellow;
+   width: 100px;
+   height: 50px;
+   color: white;
+ }
+ .item2 {
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    color: white;
+  
+ }
+ .item3 {
+    background-color: red;
+    height: 100px;
+    width: 50px;
+    color: white;
+    font-size: 40px;
+
+ }
+ .item4 {
+    background-color: rgb(157, 153, 153);
+    width: 100px;
+    height: 50px;
+    color: white;
+ }
+ .item5 {
+    background-color: rgb(66, 63, 63);
+    width: 100px;
+    height: 50px;
+    color: white;
+ }
+ 
+
+
+
+
+ .container2 {
+    background-color: rgb(203, 207, 210);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+ }
+ .box1 {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+ }
+ .box2 {
+    background-color: aquamarine;
+    width: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+ }
+ .box3 {
+    background-color: rgb(153, 155, 157);
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+ }
+
+
+
+
+
+ .container3 {
+    background-color: rgb(203, 207, 210);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+ }
+ .box4 {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+ }
+ .box5 {
+    background-color: aquamarine;
+    width: 50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+ }
+ .box6 {
+    background-color: rgb(153, 155, 157);
+    width: 150px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+ }

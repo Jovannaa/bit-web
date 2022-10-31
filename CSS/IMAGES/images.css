@@ -1,0 +1,29 @@
+#first {
+    height: 200px;
+}
+
+#second {
+    width: 200px;  
+}
+
+#third {
+    width: 200px;
+    height: 200px;   
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+
+}
+.container3 {
+    display: flex;
+    justify-content: end;
+
+}
+
