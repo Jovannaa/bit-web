@@ -74,6 +74,7 @@ img {
 
 
 button {
+    display: flex;
     background-color: rgb(31, 31, 243);
     position: absolute;
     margin-top: 610px;
@@ -168,8 +169,7 @@ article {
 .review {
     background-color: lightskyblue;
     width: 80%;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 30px;
     color: white;
     padding: 10px;
 }
@@ -194,5 +194,66 @@ article {
     list-style-type: none;
     padding-inline-start: 10px;
     
+}
+
+.review2, .review3 {
+    margin-top: 10px;
+    background-color: lightskyblue;
+    width: 80%;
+    color: white;
+    padding: 10px;
+}
+
+.subtitle2 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.phone, .email {
+    width: 20px;
+    height: 20px;
+}
+
+.box {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box1 {
+    background-color: mediumseagreen;
+}
+
+.box2 {
+    background-color: rgb(239, 72, 180);
+}
+
+.box3 {
+    background-color: rgb(68, 68, 238);
+    display: grid;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    color: white;
+    font-size: 25px;
+
+}
+
+.box4 {
+    background-color: lightblue;
+}
+
+.house {
+    width: 350px;
+    height: 330px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.iframe {
+    width: 100%;
 }
 
