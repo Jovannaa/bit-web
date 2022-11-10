@@ -69,8 +69,9 @@ img {
     position: absolute;
     margin-top: 400px;
     color: white;
-    
+    font-size: 30px;
 }
+
 
 button {
     background-color: rgb(31, 31, 243);
@@ -88,16 +89,110 @@ section img {
 
 .third {
    text-align: center;
+   font-size: 40px;
 }
-h3 {
+h3, h4 {
     color: rgb(71, 190, 230);
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+h5 {
+    font-size: 40px;
 }
 
 article {
     display: flex;
     justify-content: left;
-    margin-left: 50px;
-   
+    margin-left: 50px; 
 }
 
-@media (min-width: 576px)
+.article2 {
+    display: flex;
+    justify-content: left;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.unordered2 {
+    list-style-type: none;
+    color: gray;
+    display: block;
+    
+}
+
+.unordered2 img {
+    float: left;
+    width: 20px;
+    height: 20px;
+    display: block;
+    
+}
+
+#first, #second {
+    margin-bottom: 30px;
+}
+
+.img {
+    width: 80%;
+}
+
+.items {
+    margin-left: 90px;
+}
+
+
+.border {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    height: 2px;
+    width: 130px;
+    border-top: 1px solid black;
+}
+
+.square {
+    height: 15px;
+    width: 15px;
+    border: 2px solid black;
+    transform: rotate(50deg);
+    margin: 0 10px;
+}
+
+.review {
+    background-color: lightskyblue;
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: white;
+    padding: 10px;
+}
+
+.reviewer img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #fff;
+    padding: 3px;
+    float: left;
+}
+
+.name {
+    color: black;
+}
+.stars {
+    color: white;
+    display: flex;
+    align-items: left;
+    margin-top: 7px;
+    list-style-type: none;
+    padding-inline-start: 10px;
+    
+}
+
