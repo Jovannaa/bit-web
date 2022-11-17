@@ -99,8 +99,9 @@ h3, h4 {
     margin-top: 20px;
 }
 
-h5 {
+h5, h6 {
     font-size: 40px;
+    text-align: center;
 }
 
 article {
@@ -204,7 +205,7 @@ article {
     padding: 10px;
 }
 
-.subtitle2 {
+.subtitle2, .subtitle3 {
     margin-top: 100px;
     margin-bottom: 30px;
 }
@@ -219,14 +220,65 @@ article {
     width: 100%;
     grid-template-rows: 300px 300px;
     grid-template-columns: 1fr 1fr;
+
+     
 }
 
 .box1 {
     background-color: mediumseagreen;
+    align-items: center;
 }
+
+h3 {
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+}
+
+.box1 img {
+    width: 20px;
+    height: 20px;
+    margin-left: 90px;
+    
+}
+
+.box1 p {
+    color: white;
+    text-align: center;
+}
+
+.icons {
+    width: 80%;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto;
+}
+
 
 .box2 {
     background-color: rgb(239, 72, 180);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box2 h3 {
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    margin-left: 160px; 
+}
+
+.box2 img {
+    width: 20px;
+    height: 20px;
+    padding: none;
+    margin-top: -30px;
+}
+
+.icons1 {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .box3 {
@@ -255,5 +307,68 @@ article {
 
 .iframe {
     width: 100%;
+}
+
+.submit {
+    width: 25%;
+    background-color: orange;
+    color: white;
+    border: 0;
+    height: 50px;
+    margin-right:70%;
+}
+
+footer {
+    display: flex;
+    background-color:black;
+    width: 100%;
+    justify-content: space-around;
+    height: 200px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+footer a {
+    color: white;
+}
+
+footer li {
+    list-style-type: none;
+    flex-grow: 2;
+}
+
+footer ul {
+    display: flex;
+    width: 90%;
+    margin-top: 50px; 
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+
+input {
+    height: 60px;
+    width: 98%;
+}
+
+.theEnd {
+    display: flex;
+    color: white;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+footer img {
+    width: 13px;
+    height: 13px;
+    margin-top: 2px;
+    margin-right: 1%;
+    margin-left: 15%;
+}
+
+footer a {
+    text-decoration: none;
 }
 
