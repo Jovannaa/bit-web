@@ -318,6 +318,8 @@ h3 {
     margin-right:70%;
 }
 
+
+
 footer {
     display: flex;
     background-color:black;
@@ -347,6 +349,7 @@ footer ul {
 }
 
 input {
+    display: flex;
     height: 60px;
     width: 98%;
 }
