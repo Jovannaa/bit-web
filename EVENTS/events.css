@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.button {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 30px auto;
+    display: block;
+    padding: 10px;
+}
+
+.off {
+    background-color: rgb(231, 231, 53);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 30px auto;
+    display: block;
+    padding: 10px;
+}
+
+.body {
+    background-color: #39399b;
+}
