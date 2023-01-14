@@ -1,0 +1,11 @@
+.first {
+    border-bottom: 3px solid red;
+}
+
+.activ {
+    color: aqua;
+}
+
+.middle {
+    background-color: blueviolet;
+}
